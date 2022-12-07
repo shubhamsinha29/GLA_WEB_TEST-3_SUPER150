@@ -1,0 +1,112 @@
+.header {
+    background-color: #5a5a5a;
+}
+.content{
+max-width:750px;
+margin:auto;
+justify-content: center;
+align-items: center;
+padding:15px;
+}
+h1{
+    width: 440px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(195, 241, 255);
+    border: solid rgb(15, 142, 192) 2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.note-input{
+    margin-top:30px;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+
+}
+.input-text{
+    height:230px;
+    width: 500px;;
+    padding:10px;  
+    box-shadow: 5px 5px #394356;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+.btn{
+    background-color: #394356;
+    color:#ffffff;
+    box-shadow: 5px 5px #d1d1e0;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    font-size: 70px;
+    padding-bottom: 10px;
+
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn:focus{
+    color:#ffffff;
+}
+.action{display: flex;
+    background-color: rgb(195, 241, 255);
+    padding: 20px;
+    border: solid rgb(15, 142, 192) 2px;
+    border-radius: 20px;
+    margin-left: 50px;
+flex-direction: column;}
+.theme{
+    width:90px;
+    height:50px;
+}
+
+.notes-list{
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.note{
+    padding:15px;
+    border-radius: 5px;
+    width: 260px;
+    box-shadow: 4px 4px #f2f2f2;
+    margin:10px;
+    height:160px;
+    border-top: solid 5px #4d4d4d;
+   
+}
+.note-view{
+    height:100px;
+    overflow-y: scroll;
+    scrollbar-width: 6px;
+    scrollbar-color: #f2f2f2f2;
+}
+.note-view::-webkit-scrollbar {
+    display: none;
+}
+.bin-icon{
+    
+    height:18px;
+    width:18px;
+    float:right;
+    margin-top:8px;
+
+}
+footer {
+    height: 40px;
+    text-align: center;
+    background-color: #f2f2f2;;
+    padding: 10px;
+    font-size: 14px;
+    margin-top:300px;
+}
